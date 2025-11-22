@@ -23,7 +23,7 @@ interface StatCard {
   title: string;
   value: string;
   change: number;
-  icon: JSX.Element;
+  icon: any;
   color: string;
   description: string;
 }

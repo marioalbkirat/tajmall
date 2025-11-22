@@ -31,7 +31,7 @@ interface Department {
     id: string;
     name: string;
     description: string;
-    icon: JSX.Element;
+    icon: any;
 }
 
 const Sidebar = ({ children }: { children: React.ReactNode }) => {
